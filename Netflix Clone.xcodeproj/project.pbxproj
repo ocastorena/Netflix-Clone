@@ -16,6 +16,8 @@
 		077297982872A20D00B31D60 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077297972872A20D00B31D60 /* UpcomingViewController.swift */; };
 		0772979A2872A25C00B31D60 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077297992872A25C00B31D60 /* SearchViewController.swift */; };
 		0772979C2872A2A700B31D60 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0772979B2872A2A700B31D60 /* DownloadsViewController.swift */; };
+		077297A32874B9E800B31D60 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077297A22874B9E800B31D60 /* CollectionViewTableViewCell.swift */; };
+		077297A52874DF6500B31D60 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077297A42874DF6500B31D60 /* HeroHeaderUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		077297972872A20D00B31D60 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		077297992872A25C00B31D60 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		0772979B2872A2A700B31D60 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		077297A22874B9E800B31D60 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		077297A42874DF6500B31D60 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 		0772979D2874B8BD00B31D60 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				077297A22874B9E800B31D60 /* CollectionViewTableViewCell.swift */,
+				077297A42874DF6500B31D60 /* HeroHeaderUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,6 +202,8 @@
 			files = (
 				0772979A2872A25C00B31D60 /* SearchViewController.swift in Sources */,
 				0772978528729E0900B31D60 /* MainTabBarViewController.swift in Sources */,
+				077297A32874B9E800B31D60 /* CollectionViewTableViewCell.swift in Sources */,
+				077297A52874DF6500B31D60 /* HeroHeaderUIView.swift in Sources */,
 				0772979C2872A2A700B31D60 /* DownloadsViewController.swift in Sources */,
 				0772978128729E0900B31D60 /* AppDelegate.swift in Sources */,
 				0772978328729E0900B31D60 /* SceneDelegate.swift in Sources */,
