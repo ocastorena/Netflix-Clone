@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		076F87922884F19800C832B2 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076F87912884F19800C832B2 /* APICaller.swift */; };
+		076F87942884F8DD00C832B2 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076F87932884F8DD00C832B2 /* Movie.swift */; };
+		076F8796288509F100C832B2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076F8795288509F100C832B2 /* Extensions.swift */; };
+		076F879828850DBE00C832B2 /* Tv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076F879728850DBE00C832B2 /* Tv.swift */; };
 		0772978128729E0900B31D60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0772978028729E0900B31D60 /* AppDelegate.swift */; };
 		0772978328729E0900B31D60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0772978228729E0900B31D60 /* SceneDelegate.swift */; };
 		0772978528729E0900B31D60 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0772978428729E0900B31D60 /* MainTabBarViewController.swift */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		076F87912884F19800C832B2 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		076F87932884F8DD00C832B2 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		076F8795288509F100C832B2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		076F879728850DBE00C832B2 /* Tv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tv.swift; sourceTree = "<group>"; };
 		0772977D28729E0900B31D60 /* Netflix Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0772978028729E0900B31D60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0772978228729E0900B31D60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +120,8 @@
 		0772979F2874B8E500B31D60 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				076F87932884F8DD00C832B2 /* Movie.swift */,
+				076F879728850DBE00C832B2 /* Tv.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -119,6 +129,7 @@
 		077297A02874B91000B31D60 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				076F8795288509F100C832B2 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -126,6 +137,7 @@
 		077297A12874B91F00B31D60 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				076F87912884F19800C832B2 /* APICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -203,11 +215,15 @@
 				0772979A2872A25C00B31D60 /* SearchViewController.swift in Sources */,
 				0772978528729E0900B31D60 /* MainTabBarViewController.swift in Sources */,
 				077297A32874B9E800B31D60 /* CollectionViewTableViewCell.swift in Sources */,
+				076F87922884F19800C832B2 /* APICaller.swift in Sources */,
 				077297A52874DF6500B31D60 /* HeroHeaderUIView.swift in Sources */,
 				0772979C2872A2A700B31D60 /* DownloadsViewController.swift in Sources */,
 				0772978128729E0900B31D60 /* AppDelegate.swift in Sources */,
+				076F8796288509F100C832B2 /* Extensions.swift in Sources */,
 				0772978328729E0900B31D60 /* SceneDelegate.swift in Sources */,
 				077297982872A20D00B31D60 /* UpcomingViewController.swift in Sources */,
+				076F87942884F8DD00C832B2 /* Movie.swift in Sources */,
+				076F879828850DBE00C832B2 /* Tv.swift in Sources */,
 				077297962872A1B300B31D60 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
